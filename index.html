@@ -13,11 +13,11 @@
             <nav>
                 <img src="" alt="">
                 <ul id="sidemenu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
@@ -141,15 +141,16 @@
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="image/upated resume.docx" download class="btn btn2">Download CV</a>
+                    <a href="image/AVEEN DE (1).pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form action="">
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6",placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
